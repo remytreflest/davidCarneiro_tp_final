@@ -3,7 +3,7 @@ const Layout = ({ children }) => {
         <>
             <header></header>
 
-            <main>{children}</main>
+            <main className="row text-left">{children}</main>
 
             <footer></footer>
         </>
