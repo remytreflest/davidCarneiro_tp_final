@@ -57,6 +57,27 @@ main {
         transform: rotate(360deg);
     }
 }
+.div-historique{
+    width: 75%;
+    margin: auto;
+}
+.div-info-historique{
+    width: 75%;
+}
+
+.bouton-retour{
+    text-align: left;
+    /* float:left; */
+}
+.link-history ul {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 25px 0px;
+    margin-bottom: 10px;
+}
+.link-history :hover
+{
+    border-radius: 5px;
+    background-color: rgba(227, 227, 227, 0.418);
+}
 
 .home-row .card {
     height: 100%;
