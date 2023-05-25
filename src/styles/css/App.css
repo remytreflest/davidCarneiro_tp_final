@@ -1,3 +1,8 @@
+.row {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
 #root {
     display: flex;
     justify-content: center;
@@ -51,4 +56,32 @@ main {
     to {
         transform: rotate(360deg);
     }
+}
+
+.home-row .card {
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.home-row .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.home-row a {
+    margin-bottom: 20px;
+}
+
+.img-crew-details-card {
+    height: auto;
+    width: 200px;
+    margin: 10px 10px 10px 0;
+}
+
+.crew-details-card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
