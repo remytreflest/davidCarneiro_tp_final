@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import History_URL from '../assets/data/data.json'
 import HistoryList from "../components/history/historyList"
-import Layout from "../components/layouts/layout"
 
 export default function History() {
     const [data, setData] = useState([])
@@ -20,16 +19,15 @@ export default function History() {
                 }
             }))
         } catch (error) {
-            window.location.href='/404'
+            window.location.href = '/404'
             console.error(error)
         }
     }
-
-    // console.log(data)
     return (
-        <Layout>
+        <div>
             <h2 className="mt-4 mb-4">Historique de {"l'entreprise"}</h2>
             {data}
-        </Layout>
+        </div>
+
     )
 }

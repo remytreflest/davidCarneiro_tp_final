@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Link, useParams } from 'react-router-dom'
 import History_URL from '../assets/data/data.json'
-import Layout from "../components/layouts/layout"
 import HistoryInfo from '../components/historyInfo/historyInfo'
 
 export default function HistoryOne() {
@@ -29,7 +28,6 @@ export default function HistoryOne() {
     }
 
     return (
-        <Layout>
             <div>
                 <div className="bouton-retour">
                     <Link to={'/history'} >
@@ -43,6 +41,5 @@ export default function HistoryOne() {
                     {data}
                 </div>
             </div>
-        </Layout>
     )
 }
