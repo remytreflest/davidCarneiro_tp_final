@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 
-const CrewLightCard = ({ name, src, id }) => {
+const RocketLightCard = ({ name, src, id }) => {
     return (
-        <Link className='col-3' to={`/crew/${id}`}>
+        <Link className='col-4' to={`/rockets/${id}`}>
             <div className='card'>
                 <img className='card-img-top' src={src} alt={name} />
                 <div className='card-body'>
@@ -13,4 +13,4 @@ const CrewLightCard = ({ name, src, id }) => {
     )
 }
 
-export default CrewLightCard
+export default RocketLightCard
