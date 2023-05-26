@@ -138,7 +138,6 @@ const RocketDetailsCard = () => {
                         </div>
                     </div>
                 </div>
-
             ) : null}
         </>
     )

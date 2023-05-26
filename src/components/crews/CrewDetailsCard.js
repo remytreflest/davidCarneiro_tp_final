@@ -5,8 +5,7 @@ import axios from 'axios'
 import { setBackground } from '../../utils/functions'
 
 const CrewDetailsCard = () => {
-    
-    setBackground("background-space-x.jpg")
+    setBackground('background-space-x.jpg')
     const [crew, setCrew] = useState([])
     const [launchInfo, setLaunchInfo] = useState([])
     const [isError, setIsError] = useState(false)
@@ -35,10 +34,13 @@ const CrewDetailsCard = () => {
             ) : null}
 
             {!isError ? (
-                <div className="card card-crew-details-card col-sm-12 offset-md-3 col-md-6 offset-lg-4 col-lg-4 mt-5" style={{width: "18rem;"}}>
-                    <img className="card-img-top" src={crew.image} alt={crew.name} />
-                    <div className="card-body text-center">
-                        <h5 className="card-title">{crew.name}</h5>
+                <div
+                    className='card card-crew-details-card col-sm-12 offset-md-3 col-md-6 offset-lg-4 col-lg-4 mt-5'
+                    style={{ width: '18rem;' }}
+                >
+                    <img className='card-img-top' src={crew.image} alt={crew.name} />
+                    <div className='card-body text-center'>
+                        <h5 className='card-title'>{crew.name}</h5>
                         <p>Agence : {crew.agency}</p>
                         <p>Status : {crew.status}</p>
                         <p>
@@ -49,7 +51,6 @@ const CrewDetailsCard = () => {
                     </div>
                 </div>
             ) : null}
-
         </>
     )
 }

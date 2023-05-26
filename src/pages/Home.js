@@ -5,7 +5,7 @@ import CrewLightCard from '../components/crews/CrewLightCard'
 import { setBackground } from '../utils/functions'
 
 function Home() {
-    setBackground("background-space-x.jpg")
+    setBackground('background-space-x.jpg')
 
     const [originalData, setOriginalData] = useState([])
     const [filteredData, setFilteredData] = useState([])

@@ -5,8 +5,7 @@ import HistoryList from '../components/histories/historyList'
 import { setBackground } from '../utils/functions'
 
 export default function History() {
-
-    setBackground("background-7-space-x.jpg", '0% 0%')
+    setBackground('background-7-space-x.jpg', '0% 0%')
     const [data, setData] = useState([])
 
     useEffect(() => {
@@ -32,7 +31,9 @@ export default function History() {
     }
     return (
         <div>
-            <h2 className='text-center mt-4 mb-4 titre-historique'>Historique de {"l'entreprise"}</h2>
+            <h2 className='text-center mt-4 mb-4 titre-historique'>
+                Historique de {"l'entreprise"}
+            </h2>
             {data}
         </div>
     )

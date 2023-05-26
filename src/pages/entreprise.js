@@ -6,8 +6,7 @@ import { setBackground } from '../utils/functions'
 import ComponentCompany from '../components/entreprise/entrepriseDesc'
 
 export default function EntreprisePage() {
-
-    setBackground("background-3-space-x.jpg")
+    setBackground('background-3-space-x.jpg')
     const { id } = useParams()
     // console.log(id);
 
@@ -30,7 +29,9 @@ export default function EntreprisePage() {
             setData(
                 <ComponentCompany
                     key={response.data.id}
-                    fondateur={(tableau[0] = tableau[0].charAt(0).toUpperCase() + tableau[0].slice(1))}
+                    fondateur={
+                        (tableau[0] = tableau[0].charAt(0).toUpperCase() + tableau[0].slice(1))
+                    }
                     CEO={tableau[1].toUpperCase()}
                     CTO={tableau[2].toUpperCase()}
                     ceo={response.data.ceo}
@@ -63,7 +64,9 @@ export default function EntreprisePage() {
         <div>
             <div>
                 <div>
-                    <h2 className="mb-4 mt-4 text-center titre-entreprise">Informations supplémentaire</h2>
+                    <h2 className='mb-4 mt-4 text-center titre-entreprise'>
+                        Informations supplémentaire
+                    </h2>
                     {data}
                 </div>
             </div>
