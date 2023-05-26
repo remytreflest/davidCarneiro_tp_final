@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 function Navigation() {
     return (
-        <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+        <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
             <a className='navbar-brand' href='#'>
                 Space-X
             </a>

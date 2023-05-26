@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Link, useParams } from 'react-router-dom'
 import History_URL from '../assets/data/data.json'
-import HistoryInfo from '../components/historyInfo/historyInfo'
+import HistoryInfo from '../components/histories/historyInfo'
 
 export default function HistoryOne() {
     const { id } = useParams();
@@ -29,13 +29,6 @@ export default function HistoryOne() {
 
     return (
             <div>
-                <div className="bouton-retour">
-                    <Link to={'/history'} >
-                        <button className="btn btn-primary mt-4">Historique</button>
-                    </Link>
-
-                </div>
-
                 <div>
                     <h2 className="mb-4 mt-4">Informations supplémentaire</h2>
                     {data}

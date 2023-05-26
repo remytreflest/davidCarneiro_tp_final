@@ -5,8 +5,8 @@ import Error from './Error'
 import History from '../pages/history'
 import HistoryInfo from '../pages/historyInfo'
 import Layout from '../layouts/layout'
-import CrewDetailsCard from '../components/CrewDetailsCard'
-import RocketDetailsCard from '../components/RocketDetailsCard'
+import CrewDetailsCard from '../components/crews/CrewDetailsCard'
+import RocketDetailsCard from '../components/rockets/RocketDetailsCard'
 
 const Routeur = ({ text }) => {
     return (

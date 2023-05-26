@@ -2,10 +2,6 @@ import { Link } from "react-router-dom";
 
 export default function HistoryList({ title, id }) {
 
-    // console.log(data)
-
-
-    // console.log(test)
     return (
         <div className="mb-2 div-historique">
             <Link className="text-decoration-none link-history" to={'/history/' + id}>

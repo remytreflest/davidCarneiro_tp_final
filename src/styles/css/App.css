@@ -17,6 +17,7 @@
 main {
     display: flex;
     justify-content: center;
+    min-height: 100vh;
 }
 
 .card {
@@ -79,8 +80,22 @@ main {
     background-color: rgba(227, 227, 227, 0.418);
 }
 
+.card-crew-light-card {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.card-crew-light-card img{
+    height: 350px;
+    background-size: cover;
+}
+
+.card-crew-light-card .card-body {
+    background: transparent;
+    color: white;
+}
+
 .home-row .card {
-    height: 100%;
     text-align: center;
     vertical-align: middle;
 }
@@ -89,10 +104,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: end;
+    background-color: #ffffff2b;
 }
 
 .home-row a {
-    margin-bottom: 20px;
+    margin-bottom: 75px;
+}
+
+.home-row .card:hover {
+    box-shadow: 0px 0px 10px 4px white;
 }
 
 .img-crew-details-card {
@@ -105,4 +125,9 @@ main {
     display: flex;
     align-items: center;
     flex-direction: row;
+}
+
+.img-rocket-light-card{
+    height: 200px;
+    background-size: contain;
 }

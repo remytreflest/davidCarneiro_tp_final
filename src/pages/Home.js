@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import file from '../assets/data/data.json'
 import axios from 'axios'
-import CrewLightCard from '../components/CrewLightCard'
+import CrewLightCard from '../components/crews/CrewLightCard'
 
 function Home() {
+
+    document.body.style.backgroundImage = "url(" + "../../assets/img/background-space-x.jpg" + ")";
+    document.body.style.backgroundSize = "contain";
+    document.body.style.backgroundAttachment = "fixed";
+
     const [originalData, setOriginalData] = useState([])
     const [filteredData, setFilteredData] = useState([])
     const [search, setSearch] = useState(null)

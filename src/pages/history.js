@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import History_URL from '../assets/data/data.json'
-import HistoryList from "../components/history/historyList"
+import HistoryList from "../components/histories/historyList"
 
 export default function History() {
     const [data, setData] = useState([])
