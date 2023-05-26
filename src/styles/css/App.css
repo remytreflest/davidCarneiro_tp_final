@@ -207,6 +207,15 @@ body {
     color: white;
     border-color: white;
 }
+.ul-info-fusee{
+    border-color: white;
+    border-top:  1px white ;
+}
+.ul-info-fusee ul li{
+    background: transparent;
+    border-color: white;
+    color:white
+}
 
 .li-history-list {
     background: #00000066;
@@ -263,4 +272,13 @@ body {
 }
 .test-2 {
     color: transparent;
+ }
+
+ .card-rocket-detail{
+    background: transparent;
+    border-color: white;
+ }
+
+ .titre-graphique{
+    color: white;
  }

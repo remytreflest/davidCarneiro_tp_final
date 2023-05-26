@@ -93,45 +93,47 @@ const RocketDetailsCard = () => {
                         >
                             {carouselItems}
                         </Carousel>
+                        <div className='ul-info-fusee'>
+                            <ul className='list-group list-group-flush'>
+                                <li className='list-group-item'>Nom : {rocket.name}</li>
+                                <li className='list-group-item'>Type : {rocket.type}</li>
+                                <li className='list-group-item'>Hauteur : {rocketHeight} mètres</li>
+                                <li className='list-group-item'>Diamètre : {rocketDiameter} mètres</li>
+                                <li className='list-group-item'>Masse : {addDots(rocketMass)} Kg</li>
+                                <li className='list-group-item'>
+                                    Actif : {rocket.active ? 'Active' : 'Inactive'}
+                                </li>
+                                <li className='list-group-item'>Etages : {rocket.stages}</li>
+                                <li className='list-group-item'>Booster : {rocket.boosters}</li>
+                                <li className='list-group-item'>
+                                    Coût par lancement : {addDots(rocket.cost_per_launch)} $
+                                </li>
+                                <li className='list-group-item'>
+                                    Taux de réussite : {rocket.success_rate_pct}
+                                </li>
+                                <li className='list-group-item'>
+                                    Premier vol :{' '}
+                                    {new Date(rocket.first_flight).toLocaleString('fr-Fr', {
+                                        month: 'short',
+                                        day: '2-digit',
+                                        year: 'numeric',
+                                    })}
+                                </li>
+                                <li className='list-group-item'>Pays : {rocket.country}</li>
+                                <li className='list-group-item'>Compagnie : {rocket.company}</li>
+                                <li className='list-group-item'>Description : {rocket.description}</li>
+                                <li className='list-group-item'>
+                                    Lien Wikipédia :{' '}
+                                    <a href={rocket.wikipedia} target='_blank' rel='noreferrer'>
+                                        {rocket.wikipedia}
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
 
-                        <ul className='list-group list-group-flush'>
-                            <li className='list-group-item'>Nom : {rocket.name}</li>
-                            <li className='list-group-item'>Type : {rocket.type}</li>
-                            <li className='list-group-item'>Hauteur : {rocketHeight} mètres</li>
-                            <li className='list-group-item'>Diamètre : {rocketDiameter} mètres</li>
-                            <li className='list-group-item'>Masse : {addDots(rocketMass)} Kg</li>
-                            <li className='list-group-item'>
-                                Actif : {rocket.active ? 'Active' : 'Inactive'}
-                            </li>
-                            <li className='list-group-item'>Etages : {rocket.stages}</li>
-                            <li className='list-group-item'>Booster : {rocket.boosters}</li>
-                            <li className='list-group-item'>
-                                Coût par lancement : {addDots(rocket.cost_per_launch)} $
-                            </li>
-                            <li className='list-group-item'>
-                                Taux de réussite : {rocket.success_rate_pct}
-                            </li>
-                            <li className='list-group-item'>
-                                Premier vol :{' '}
-                                {new Date(rocket.first_flight).toLocaleString('fr-Fr', {
-                                    month: 'short',
-                                    day: '2-digit',
-                                    year: 'numeric',
-                                })}
-                            </li>
-                            <li className='list-group-item'>Pays : {rocket.country}</li>
-                            <li className='list-group-item'>Compagnie : {rocket.company}</li>
-                            <li className='list-group-item'>Description : {rocket.description}</li>
-                            <li className='list-group-item'>
-                                Lien Wikipédia :{' '}
-                                <a href={rocket.wikipedia} target='_blank' rel='noreferrer'>
-                                    {rocket.wikipedia}
-                                </a>
-                            </li>
-                        </ul>
 
                         <div className='col-6 offset-3'>
-                            <p className='mb-3'>
+                            <p className='mb-3 titre-graphique'>
                                 <b>Comparaison des fusées en terme de poids (kg)</b>
                             </p>
                             <PolarArea data={data} />
