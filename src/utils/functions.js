@@ -64,7 +64,7 @@ export function Timer( seconds, endTimerFunc, submitted = false ){
   
     return (
       <div id="timer" className='timer alert alert-warning'>
-        <Dodgecoin />
+        <Dodgecoin className='rotating' />
         { timeLeft ? <h1>{timeLeft} seconde{ timeLeft > 1 ? "s" : null }</h1> : null }
       </div>
     );

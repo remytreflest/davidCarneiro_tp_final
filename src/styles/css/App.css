@@ -55,6 +55,17 @@ body {
     background: transparent;
     color: white;
 }
+.card-crew-details-card {
+    background: rgb(0 0 0 / 26%);
+    border: 1px solid white;
+}
+.card-crew-details-card a {
+    color: white;
+}
+.card-crew-details-card .card-body {
+    background: transparent;
+    color: white;
+}
 
 .home-row .card {
     text-align: center;
@@ -208,13 +219,48 @@ body {
 .li-history-list:hover {
     box-shadow: 0px 0px 10px 4px white;
 }
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .rotating {
+    -webkit-animation: rotating 60s linear infinite;
+    -moz-animation: rotating 60s linear infinite;
+    -ms-animation: rotating 60s linear infinite;
+    -o-animation: rotating 60s linear infinite;
+    animation: rotating 60s linear infinite;
+  }
 .link-article{
     border: solid 1px white;
-    padding: 5px;
+    padding: 10px 20px;
     border-radius: 20px;
     width: 120px;
 }
 .link-article:hover{
-    background-color: white;
-    transition: background-color 1s ease 0s;
+    box-shadow: 0px 0px 10px 4px white;
 }
