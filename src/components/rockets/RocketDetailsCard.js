@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import file from '../assets/data/data.json'
+import file from '../../assets/data/data.json'
 import axios from 'axios'
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
 import { Carousel } from 'react-responsive-carousel'
 import { Chart as ChartJS, RadialLinearScale, ArcElement, Tooltip, Legend } from 'chart.js'
 import { PolarArea } from 'react-chartjs-2'
-import addDots from '../utils/functions'
+import addDots from '../../utils/functions'
 
 const RocketDetailsCard = () => {
     const [rocket, setRocket] = useState([])
@@ -109,7 +109,14 @@ const RocketDetailsCard = () => {
                         <li className='list-group-item'>
                             Taux de réussite : {rocket.success_rate_pct}
                         </li>
-                        <li className='list-group-item'>Premier vol : { new Date(rocket.first_flight).toLocaleString( "fr-Fr", { month: "short", day: "2-digit", year: "numeric"})}</li>
+                        <li className='list-group-item'>
+                            Premier vol :{' '}
+                            {new Date(rocket.first_flight).toLocaleString('fr-Fr', {
+                                month: 'short',
+                                day: '2-digit',
+                                year: 'numeric',
+                            })}
+                        </li>
                         <li className='list-group-item'>Pays : {rocket.country}</li>
                         <li className='list-group-item'>Compagnie : {rocket.company}</li>
                         <li className='list-group-item'>Description : {rocket.description}</li>

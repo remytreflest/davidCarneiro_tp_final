@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import file from '../assets/data/data.json'
 import axios from 'axios'
-import RocketLightCard from '../components/RocketLightCard'
+import RocketLightCard from '../components/rockets/RocketLightCard'
 
 function Rockets() {
     const [data, setData] = useState([])

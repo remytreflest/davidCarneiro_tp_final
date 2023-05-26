@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link, redirect, useParams } from 'react-router-dom'
-import file from '../assets/data/data.json'
+import file from '../../assets/data/data.json'
 import axios from 'axios'
 
 const CrewDetailsCard = () => {

@@ -1,9 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import file from '../assets/data/data.json'
 import axios from 'axios'
-import CrewLightCard from '../components/CrewLightCard'
+import CrewLightCard from '../components/crews/CrewLightCard'
 
 function Home() {
+    document.body.style.backgroundImage = 'url(' + '../../assets/img/background-space-x.jpg' + ')'
+    document.body.style.backgroundSize = 'cover'
+    document.body.style.backgroundAttachment = 'fixed'
+    document.body.style.backgroundPosition = '50% 50%'
+    document.body.style.backgroundRepeat = 'no-repeat'
+
     const [originalData, setOriginalData] = useState([])
     const [filteredData, setFilteredData] = useState([])
     const [search, setSearch] = useState(null)
@@ -59,7 +65,7 @@ function Home() {
     return (
         <div className='row home-row'>
             <div className='row'>
-                <div className='col-6 offset-3'>
+                <div className='col-6 offset-3 mb-3 mt-3'>
                     <input
                         className='form-control form-control-lg mt-3 mb-3 col-6'
                         placeholder='Rechercher par nom ou par agence'

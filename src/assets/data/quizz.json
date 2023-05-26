@@ -1,0 +1,862 @@
+[
+    {
+        "titre": "Quiz 1: SpaceX - Histoire et Fonctionnement",
+        "questions": [
+            {
+                "question": "Quelle année SpaceX a-t-elle été fondée ?",
+                "reponses": [
+                    {
+                        "texte": "2002",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "2005",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "2008",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "2010",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom de la première fusée développée par SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "Falcon Heavy",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Falcon 1",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Falcon 9",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quelle est la fonction principale de la fusée Falcon 9 de SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "Transporter des astronautes vers la Station spatiale internationale",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Lancer des satellites en orbite terrestre",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Voyager vers Mars",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Effectuer des vols touristiques dans l'espace",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Qui est le fondateur de SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "Jeff Bezos",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Richard Branson",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Elon Musk",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Mark Zuckerberg",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quelle est la capsule développée par SpaceX pour transporter des astronautes ?",
+                "reponses": [
+                    {
+                        "texte": "Dragon",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Orion",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Soyuz",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Apollo",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du site de lancement principal de SpaceX en Floride ?",
+                "reponses": [
+                    {
+                        "texte": "Space Launch Complex 40 (SLC-40)",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Kennedy Space Center",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Vandenberg Air Force Base",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Cape Canaveral Space Launch Complex",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du premier étage réutilisable de SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "Falcon 1",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Falcon 9",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Falcon Heavy",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "En 2020, SpaceX a réussi à devenir la première entreprise privée à envoyer des humains dans l'espace. Quels étaient les noms des astronautes à bord de la mission Demo-2 ?",
+                "reponses": [
+                    {
+                        "texte": "Neil Armstrong et Buzz Aldrin",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Yuri Gagarin et Alexey Leonov",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Bob Behnken et Doug Hurley",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Christina Koch et Jessica Meir",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quelle est la charge utile la plus lourde que SpaceX ait jamais lancée dans l'espace jusqu'à présent ?",
+                "reponses": [
+                    {
+                        "texte": "Le Roadster de Tesla",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Le satellite Hispasat 30W-6",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Le satellite Starlink-1 L1-5",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Le module d'habitat BEAM pour la Station spatiale internationale",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du programme de lancement de satellites en orbite basse développé par SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "Starlink",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Dragon",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "FalconSat",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Artemis",
+                        "vrai": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "titre": "Quiz 2: SpaceX - Missions et Accomplissements",
+        "questions": [
+            {
+                "question": "Quel est le nom du vaisseau spatial développé par SpaceX pour les missions de ravitaillement de la Station spatiale internationale ?",
+                "reponses": [
+                    {
+                        "texte": "Dragon",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Orion",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Soyuz",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Combien de vaisseaux cargo Dragon SpaceX a-t-elle déjà envoyés vers la Station spatiale internationale ?",
+                "reponses": [
+                    {
+                        "texte": "5",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "10",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "15",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "20",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du vaisseau spatial développé par SpaceX pour transporter des astronautes vers la Station spatiale internationale ?",
+                "reponses": [
+                    {
+                        "texte": "Dragon",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Orion",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Soyuz",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du site de lancement utilisé par SpaceX pour les missions de ravitaillement de la Station spatiale internationale depuis la côte est des États-Unis ?",
+                "reponses": [
+                    {
+                        "texte": "Space Launch Complex 40 (SLC-40)",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Kennedy Space Center",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Vandenberg Air Force Base",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Space Launch Complex 39A (SLC-39A)",
+                        "vrai": true
+                    }
+                ]
+            },
+            {
+                "question": "Quelle entreprise a été la première à signer un contrat avec SpaceX pour lancer des satellites en orbite terrestre basse ?",
+                "reponses": [
+                    {
+                        "texte": "NASA",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "ESA",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Iridium",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Roscosmos",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du vaisseau spatial développé par SpaceX pour les missions vers Mars ?",
+                "reponses": [
+                    {
+                        "texte": "Dragon",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Orion",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Falcon Heavy",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du vaisseau spatial développé par SpaceX pour les missions de ravitaillement de la Station spatiale internationale ?",
+                "reponses": [
+                    {
+                        "texte": "Dragon",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Orion",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Soyuz",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du site de lancement utilisé par SpaceX pour les missions de ravitaillement de la Station spatiale internationale depuis la côte est des États-Unis ?",
+                "reponses": [
+                    {
+                        "texte": "Space Launch Complex 40 (SLC-40)",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Kennedy Space Center",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Vandenberg Air Force Base",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Space Launch Complex 39A (SLC-39A)",
+                        "vrai": true
+                    }
+                ]
+            },
+            {
+                "question": "Quelle entreprise a été la première à signer un contrat avec SpaceX pour lancer des satellites en orbite terrestre basse ?",
+                "reponses": [
+                    {
+                        "texte": "NASA",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "ESA",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Iridium",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Roscosmos",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du vaisseau spatial développé par SpaceX pour les missions vers Mars ?",
+                "reponses": [
+                    {
+                        "texte": "Dragon",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Orion",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Falcon Heavy",
+                        "vrai": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "titre": "Quiz 3: SpaceX - Lanceurs et Fusées",
+        "questions": [
+            {
+                "question": "Quel est le nom du premier lanceur réutilisable développé par SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "Falcon 1",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Falcon 9",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Falcon Heavy",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du plus grand lanceur développé par SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "Falcon 1",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Falcon 9",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Falcon Heavy",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du premier étage réutilisable de SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "Falcon 1",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Falcon 9",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Falcon Heavy",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du lanceur développé par SpaceX spécifiquement pour les missions vers Mars ?",
+                "reponses": [
+                    {
+                        "texte": "Falcon 1",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Falcon 9",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Falcon Heavy",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": true
+                    }
+                ]
+            },
+            {
+                "question": "Quelle est la capacité de charge utile en orbite basse (LEO) du lanceur Falcon Heavy de SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "8 tonnes",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "16 tonnes",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "23 tonnes",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "63 tonnes",
+                        "vrai": true
+                    }
+                ]
+            },
+            {
+                "question": "Quelle est la capacité de charge utile en orbite basse (LEO) du lanceur Falcon 9 de SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "8 tonnes",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "16 tonnes",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "23 tonnes",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "63 tonnes",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quelle est la capacité de charge utile en orbite basse (LEO) du lanceur Falcon 1 de SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "8 tonnes",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "16 tonnes",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "23 tonnes",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "1 tonne",
+                        "vrai": true
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du premier lanceur développé par SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "Falcon 1",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Falcon 9",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Falcon Heavy",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du plus grand lanceur développé par SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "Falcon 1",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Falcon 9",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Falcon Heavy",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du premier étage réutilisable de SpaceX ?",
+                "reponses": [
+                    {
+                        "texte": "Falcon 1",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Falcon 9",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Falcon Heavy",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "titre": "Quiz 4: SpaceX - Partenariats et Projets Futurs",
+        "questions": [
+            {
+                "question": "Quelle entreprise utilise les moteurs-fusées Merlin de SpaceX pour propulser sa fusée New Glenn ?",
+                "reponses": [
+                    {
+                        "texte": "Blue Origin",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Boeing",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Lockheed Martin",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Arianespace",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "SpaceX a annoncé un projet de tourisme spatial autour de la Lune. Qui est le premier passager privé à avoir réservé ce voyage ?",
+                "reponses": [
+                    {
+                        "texte": "Jeff Bezos",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Richard Branson",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Elon Musk",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Yusaku Maezawa",
+                        "vrai": true
+                    }
+                ]
+            },
+            {
+                "question": "SpaceX a signé un contrat avec quelle agence spatiale pour envoyer la mission REDOX vers Mars ?",
+                "reponses": [
+                    {
+                        "texte": "NASA",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "ESA",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Roscosmos",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "CNSA",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quelle entreprise utilise les services de SpaceX pour lancer ses satellites Star One D2 et Star One C4 ?",
+                "reponses": [
+                    {
+                        "texte": "SES",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Iridium",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Eutelsat",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Intelsat",
+                        "vrai": true
+                    }
+                ]
+            },
+            {
+                "question": "SpaceX prévoit de lancer un réseau de constellations de satellites pour fournir une connectivité Internet mondiale. Quel est le nom de ce projet ?",
+                "reponses": [
+                    {
+                        "texte": "Starlink",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "SkyNet",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "GlobalWeb",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "EarthNet",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du vaisseau spatial développé par SpaceX spécifiquement pour les missions vers Mars ?",
+                "reponses": [
+                    {
+                        "texte": "Dragon",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Orion",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Falcon Heavy",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du projet de SpaceX visant à créer une mégaconstellation de satellites en orbite basse pour fournir une couverture Internet mondiale ?",
+                "reponses": [
+                    {
+                        "texte": "Starlink",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Starship",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "FalconNet",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "SkyWeb",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "Quelle entreprise utilise les services de SpaceX pour lancer ses satellites de télécommunication OneWeb ?",
+                "reponses": [
+                    {
+                        "texte": "Boeing",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Amazon",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "OneWeb",
+                        "vrai": true
+                    },
+                    {
+                        "texte": "Google",
+                        "vrai": false
+                    }
+                ]
+            },
+            {
+                "question": "SpaceX prévoit d'envoyer une mission non habitée sur Mars pour recueillir des données et préparer des missions habitées futures. Quel est le nom de cette mission ?",
+                "reponses": [
+                    {
+                        "texte": "Mars One",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Mars Reconnaissance",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Mars Rover",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Red Dragon",
+                        "vrai": true
+                    }
+                ]
+            },
+            {
+                "question": "Quel est le nom du projet de SpaceX visant à créer une base lunaire permanente ?",
+                "reponses": [
+                    {
+                        "texte": "Moonbase Alpha",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Artemis",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Lunar Outpost",
+                        "vrai": false
+                    },
+                    {
+                        "texte": "Starbase Luna",
+                        "vrai": true
+                    }
+                ]
+            }
+        ]
+    }
+]
