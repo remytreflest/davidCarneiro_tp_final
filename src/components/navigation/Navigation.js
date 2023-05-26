@@ -28,12 +28,11 @@ function Navigation() {
                     <NavLink className='nav-item nav-link' to='/company'>
                         Informations
                     </NavLink>
-                    <NavLink className='nav-item nav-link' to='/quizz'>
-                        Quizz
-                    </NavLink>
-
                     <NavLink className='nav-item nav-link' to='/rockets'>
                         Fusées
+                    </NavLink>
+                    <NavLink className='nav-item nav-link' to='/quizz'>
+                        [Couiz]
                     </NavLink>
                 </div>
             </div>

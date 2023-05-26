@@ -24,11 +24,11 @@ export function shuffle(array){
     return array;
 }
 
-export function setBackground(img){
+export function setBackground(img, position = '50% 50%'){
     document.body.style.backgroundImage = 'url(' + '../../assets/img/' + img + ')'
     document.body.style.backgroundSize = 'cover'
     document.body.style.backgroundAttachment = 'fixed'
-    document.body.style.backgroundPosition = '50% 50%'
+    document.body.style.backgroundPosition = position;
     document.body.style.backgroundRepeat = 'no-repeat'
 }
 

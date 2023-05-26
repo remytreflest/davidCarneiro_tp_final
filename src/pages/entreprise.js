@@ -2,10 +2,12 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Link, useParams } from 'react-router-dom'
 import Company_URL from '../assets/data/data.json'
-// import IMG from '../assets/img'
+import { setBackground } from '../utils/functions'
 import ComponentCompany from '../components/entreprise/entrepriseDesc'
 
 export default function EntreprisePage() {
+
+    setBackground("background-3-space-x.jpg")
     const { id } = useParams()
     // console.log(id);
 
@@ -18,17 +20,11 @@ export default function EntreprisePage() {
     const fetchData = async () => {
         try {
             const response = await axios.get(Company_URL.company_url)
-            // console.log(response.data);
             let test = []
-            // let image = [];
-            // for(){
 
-            // }
             for (const [key, value] of Object.entries(response.data)) {
-                // console.log(`${key}: ${value}`);
                 if (`${value}` == 'Elon Musk') {
                     test.push(key)
-                    // console.log(test)
                 }
             }
             setData(
@@ -57,10 +53,8 @@ export default function EntreprisePage() {
                     link_flickr={response.data.links.flickr}
                 />,
             )
-            console.log(response.data)
-            // console.log();
         } catch (error) {
-            // window.location.href = '/404'
+            // TODO gestion réelle des erreurs
             console.error(error)
         }
     }
@@ -68,8 +62,10 @@ export default function EntreprisePage() {
     return (
         <div>
             <div>
-                <h2 className='mb-4 mt-4'>Informations supplémentaire</h2>
-                {data}
+                <div>
+                    <h2 className="mb-4 mt-4 text-center titre-entreprise">Informations supplémentaire</h2>
+                    {data}
+                </div>
             </div>
         </div>
     )
