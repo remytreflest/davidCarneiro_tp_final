@@ -87,7 +87,7 @@ const RocketDetailsCard = () => {
                     <h2 className='text-center mt-4 mb-4 titre-rocket-details'>{rocket.name}</h2>
                     <div className='card col-8 offset-2 mt-3 fade-in card-rocket-detail'>
                         <Carousel
-                            className='rocket-details-caroussel mt-2'
+                            className='rocket-details-caroussel'
                             showArrows={true}
                             showThumbs={true}
                         >
