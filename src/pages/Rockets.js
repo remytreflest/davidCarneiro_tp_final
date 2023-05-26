@@ -2,8 +2,11 @@ import React, { useState, useEffect } from 'react'
 import file from '../assets/data/data.json'
 import axios from 'axios'
 import RocketLightCard from '../components/rockets/RocketLightCard'
+import { setBackground } from '../utils/functions'
 
 function Rockets() {
+
+    setBackground("background-6-space-x.jpg")
     const [data, setData] = useState([])
     const [isLoading, setIsLoading] = useState(true)
 

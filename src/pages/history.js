@@ -2,8 +2,11 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import History_URL from '../assets/data/data.json'
 import HistoryList from '../components/histories/historyList'
+import { setBackground } from '../utils/functions'
 
 export default function History() {
+
+    setBackground("background-7-space-x.jpg", '0% 0%')
     const [data, setData] = useState([])
 
     useEffect(() => {

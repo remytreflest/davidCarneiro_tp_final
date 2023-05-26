@@ -1,12 +1,33 @@
 import addDots from "../../utils/functions";
 
 // import IMG from '../../assets/img'
-export default function ComponentCompany({link_flickr, link_twitter_spacex, link_twitter_elon, link_website, founded, test_sites, vehicles, valuation, summary,CTO, CEO, fondateur, headquarter_state, headquarter_city, headquarter_address, name, ceo, coo, cto, cto_propulsion, employees }) {
-
+export default function ComponentCompany({
+    link_flickr,
+    link_twitter_spacex,
+    link_twitter_elon,
+    link_website,
+    founded,
+    test_sites,
+    vehicles,
+    valuation,
+    summary,
+    CTO,
+    CEO,
+    fondateur,
+    headquarter_state,
+    headquarter_city,
+    headquarter_address,
+    name,
+    ceo,
+    coo,
+    cto,
+    cto_propulsion,
+    employees,
+}) {
     return (
         <div className="mb-2 fade-in">
-            <div className="bloc-div-entreprise">
-                <div className="card card-personne card-crew-light-card">
+            <div className="bloc-div-entreprise row">
+                <div className="card card-crew-light-card col-lg-4 col-md-6 col-sm-12">
                     <img src={require(`../../assets/img/${ceo}.jpg`)} className="card-img-top img-card" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{ceo}</h5>
@@ -15,14 +36,14 @@ export default function ComponentCompany({link_flickr, link_twitter_spacex, link
                         <p className="card-text">{CTO}</p>
                     </div>
                 </div>
-                <div className="card card-personne card-crew-light-card">
+                <div className="card card-crew-light-card col-lg-4 col-md-6 col-sm-12">
                     <img src={require(`../../assets/img/${coo}.jpg`)} className="card-img-top img-card" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{coo}</h5>
                         <p className="card-text">COO de Space-X</p>
                     </div>
                 </div>
-                <div className="card card-personne card-crew-light-card">
+                <div className="card card-crew-light-card col-lg-4 col-md-6 offset-md-3 offset-lg-0 col-sm-12">
                     <img src={require(`../../assets/img/${cto_propulsion}.jpg`)} className="card-img-top img-card" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{cto_propulsion}</h5>
@@ -31,7 +52,7 @@ export default function ComponentCompany({link_flickr, link_twitter_spacex, link
                 </div>
             </div>
             <div className="card mt-4 div-entreprise-spacex">
-                <img src={require(`../../assets/img/${name}.jpg`)} className="card-img-top img-spacex" alt="..." />
+                <img src={require(`../../assets/img/${name}.png`)} className="card-img-top img-spacex" alt="..." />
                 <div className="card-body div-spacex ">
                     <h5 className="card-title text-center">{name}</h5>
                     <h6 className="card-title text-center">Date de fondation : {founded}</h6>
@@ -51,7 +72,5 @@ export default function ComponentCompany({link_flickr, link_twitter_spacex, link
                 </div>
             </div>
         </div>
-
     )
-
 }
