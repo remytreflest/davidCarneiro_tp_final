@@ -6,7 +6,6 @@ import HistoryInfo from '../components/histories/historyInfo'
 
 export default function HistoryOne() {
     const { id } = useParams()
-    // console.log(id);
 
     const [data, setData] = useState([])
 

@@ -4,7 +4,7 @@ import axios from 'axios'
 import CrewLightCard from '../components/crews/CrewLightCard'
 import { setBackground } from '../utils/functions'
 
-function Home() {
+function HomePage() {
     setBackground('background-space-x.jpg')
 
     const [originalData, setOriginalData] = useState([])
@@ -78,4 +78,4 @@ function Home() {
     )
 }
 
-export default Home
+export default HomePage

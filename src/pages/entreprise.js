@@ -8,8 +8,6 @@ import ComponentCompany from '../components/entreprise/entrepriseDesc'
 export default function EntreprisePage() {
     setBackground('background-3-space-x.jpg')
     const { id } = useParams()
-    // console.log(id);
-
     const [data, setData] = useState([])
 
     useEffect(() => {
