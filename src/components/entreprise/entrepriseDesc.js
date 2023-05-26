@@ -64,7 +64,7 @@ export default function ComponentCompany({
                     <p className="card-text"><span className="text-decoration-underline">Valeur</span> : {addDots(valuation)} €</p>
                     <p className="card-text"><span className="text-decoration-underline">Nombre de fusée</span> : {vehicles}</p>
                     <p className="card-text"><span className="text-decoration-underline">Site de lancement</span> : {test_sites}</p>
-                    <a className="img-link test" href={link_website}><img className="logo-link" src={require(`../../assets/img/icon_spacex.png`)}/></a>
+                    <a className="img-link" href={link_website}><img className="logo-link" src={require(`../../assets/img/icon_spacex.png`)}/></a>
                     <a className="img-link" href={link_twitter_elon}><img className="logo-link" src={require(`../../assets/img/icon_twitter.png`)}/></a>
                     <a className="img-link" href={link_twitter_spacex}><img className="logo-link" src={require(`../../assets/img/icon_twitter.png`)}/></a>
                     <a className="img-link" href={link_flickr}><img className="logo-link" src={require(`../../assets/img/icon_flickr.png`)}/></a>
