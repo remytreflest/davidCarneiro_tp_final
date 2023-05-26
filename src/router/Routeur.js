@@ -6,12 +6,9 @@ import History from '../pages/history'
 import HistoryInfo from '../pages/historyInfo'
 import Layout from '../layouts/layout'
 import CrewDetailsCard from '../components/CrewDetailsCard'
-<<<<<<< HEAD
 import EntreprisePage from '../pages/entreprise'
 import QuizzPage from '../pages/quizz'
-=======
 import RocketDetailsCard from '../components/RocketDetailsCard'
->>>>>>> main
 
 const Routeur = ({ text }) => {
     return (
