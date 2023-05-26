@@ -20,19 +20,19 @@ export default function EntreprisePage() {
     const fetchData = async () => {
         try {
             const response = await axios.get(Company_URL.company_url)
-            let test = []
+            let tableau = []
 
             for (const [key, value] of Object.entries(response.data)) {
                 if (`${value}` == 'Elon Musk') {
-                    test.push(key)
+                    tableau.push(key)
                 }
             }
             setData(
                 <ComponentCompany
                     key={response.data.id}
-                    fondateur={(test[0] = test[0].charAt(0).toUpperCase() + test[0].slice(1))}
-                    CEO={test[1].toUpperCase()}
-                    CTO={test[2].toUpperCase()}
+                    fondateur={(tableau[0] = tableau[0].charAt(0).toUpperCase() + tableau[0].slice(1))}
+                    CEO={tableau[1].toUpperCase()}
+                    CTO={tableau[2].toUpperCase()}
                     ceo={response.data.ceo}
                     coo={response.data.coo}
                     cto={response.data.cto}
@@ -45,7 +45,7 @@ export default function EntreprisePage() {
                     valuation={response.data.valuation}
                     employees={response.data.employees}
                     vehicles={response.data.vehicles}
-                    test_sites={response.data.test_sites}
+                    tableau_sites={response.data.tableau_sites}
                     founded={response.data.founded}
                     link_website={response.data.links.website}
                     link_twitter_elon={response.data.links.elon_twitter}
