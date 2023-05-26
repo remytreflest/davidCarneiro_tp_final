@@ -3,6 +3,8 @@ import { Link, redirect, useParams } from 'react-router-dom'
 import file from '../assets/data/data.json'
 import axios from 'axios'
 import { setBackground } from '../utils/functions'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons'
 
 const CrewDetailsPage = () => {
     setBackground('background-space-x.jpg')
@@ -33,23 +35,29 @@ const CrewDetailsPage = () => {
                 </div>
             ) : null}
 
-            {!isError ? (
-                <div
-                    className='card card-crew-details-card col-sm-12 offset-md-3 col-md-6 offset-lg-4 col-lg-4 mt-5'
-                    style={{ width: '18rem;' }}
-                >
-                    <img className='card-img-top' src={crew.image} alt={crew.name} />
-                    <div className='card-body text-center'>
-                        <h5 className='card-title'>{crew.name}</h5>
-                        <p>Agence : {crew.agency}</p>
-                        <p>Status : {crew.status}</p>
-                        <p>
-                            <a href={crew.wikipedia} target='_blank' rel='noreferrer'>
-                                {crew.wikipedia}
-                            </a>
-                        </p>
+            {!isError ? ( <>
+                    <h2 className='mt-4 text-center d-flex col-sm-12 offset-md-3 col-md-6 offset-lg-4 col-lg-4 text-white'>
+                        <Link className='btn btn-dark me-2' to={`../../`}>
+                            <FontAwesomeIcon icon={faArrowLeftLong} style={{ color: '#ffffff' }} />
+                        </Link>
+                        {crew.name}
+                    </h2>
+                    <div
+                        className='card card-crew-details-card col-sm-12 offset-md-3 col-md-6 offset-lg-4 col-lg-4'
+                        style={{ width: '18rem;' }}
+                    >
+                        <img className='card-img-top' src={crew.image} alt={crew.name} />
+                        <div className='card-body text-center'>
+                            <p>Agence : {crew.agency}</p>
+                            <p>Status : {crew.status}</p>
+                            <p>
+                                <a href={crew.wikipedia} target='_blank' rel='noreferrer'>
+                                    {crew.wikipedia}
+                                </a>
+                            </p>
+                        </div>
                     </div>
-                </div>
+                </>
             ) : null}
         </>
     )

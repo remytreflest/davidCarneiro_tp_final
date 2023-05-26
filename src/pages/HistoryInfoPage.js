@@ -3,8 +3,12 @@ import axios from 'axios'
 import { Link, useParams } from 'react-router-dom'
 import History_URL from '../assets/data/data.json'
 import HistoryInfo from '../components/histories/historyInfo'
+import { setBackground } from '../utils/functions'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons'
 
-export default function HistoryOne() {
+export default function HistoryInfoPage() {
+    setBackground('background-7-space-x.jpg', '0% 0%')
     const { id } = useParams()
 
     const [data, setData] = useState([])
@@ -35,9 +39,14 @@ export default function HistoryOne() {
     return (
         <div>
             <div>
-                <h2 className='mb-4 mt-4 text-center titre-infoSupp'>
-                    Informations supplémentaire
-                </h2>
+                <div>
+                    <h2 className='mb-4 mt-4 text-center titre-infoSupp d-flex'>
+                        <Link className='btn btn-dark me-2' to={`../../history`}>
+                            <FontAwesomeIcon icon={faArrowLeftLong} style={{ color: '#ffffff' }} />
+                        </Link>
+                        Informations supplémentaire
+                    </h2>
+                </div>
                 {data}
             </div>
         </div>
