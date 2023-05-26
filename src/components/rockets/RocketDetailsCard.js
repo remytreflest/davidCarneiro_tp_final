@@ -109,7 +109,14 @@ const RocketDetailsCard = () => {
                         <li className='list-group-item'>
                             Taux de réussite : {rocket.success_rate_pct}
                         </li>
-                        <li className='list-group-item'>Premier vol : { new Date(rocket.first_flight).toLocaleString( "fr-Fr", { month: "short", day: "2-digit", year: "numeric"})}</li>
+                        <li className='list-group-item'>
+                            Premier vol :{' '}
+                            {new Date(rocket.first_flight).toLocaleString('fr-Fr', {
+                                month: 'short',
+                                day: '2-digit',
+                                year: 'numeric',
+                            })}
+                        </li>
                         <li className='list-group-item'>Pays : {rocket.country}</li>
                         <li className='list-group-item'>Compagnie : {rocket.company}</li>
                         <li className='list-group-item'>Description : {rocket.description}</li>

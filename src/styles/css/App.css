@@ -3,51 +3,10 @@
     margin: 0px !important;
 }
 
-#root {
-    display: flex;
-    justify-content: center;
-}
-
-.App {
-    text-align: center;
-    /*max-width: 1080px;*/
-    width: 100%;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-.card {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.sub-main {
-    width: 100%;
-}
-
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
     }
-}
-
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-}
-
-.App-link {
-    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -58,24 +17,20 @@ main {
         transform: rotate(360deg);
     }
 }
-.div-historique{
+
+.div-historique {
     width: 75%;
     margin: auto;
 }
-.div-info-historique{
+.div-info-historique {
     width: 75%;
 }
 
-.bouton-retour{
-    text-align: left;
-    /* float:left; */
-}
 .link-history ul {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 25px 0px;
     margin-bottom: 10px;
 }
-.link-history :hover
-{
+.link-history :hover {
     border-radius: 5px;
     background-color: rgba(227, 227, 227, 0.418);
 }
@@ -85,7 +40,7 @@ main {
     border: 1px solid white;
 }
 
-.card-crew-light-card img{
+.card-crew-light-card img {
     height: 350px;
     background-size: cover;
 }
@@ -127,7 +82,24 @@ main {
     flex-direction: row;
 }
 
-.img-rocket-light-card{
+.img-rocket-light-card {
     height: 200px;
     background-size: contain;
+}
+
+#search {
+    background: #ffffffc9 !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s;
 }

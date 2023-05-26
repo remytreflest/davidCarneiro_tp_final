@@ -20,8 +20,8 @@ const Routeur = ({ text }) => {
                         <Route path='/rockets/:id' element={<RocketDetailsCard />} />
                         <Route path='*' element={<Error text='404' />} />
                         <Route path='/404' element={<Error text='404' />} />
-                        <Route path='/history/' element={<History/>} />
-                        <Route path='/history/:id' element={<HistoryInfo/>} />
+                        <Route path='/history/' element={<History />} />
+                        <Route path='/history/:id' element={<HistoryInfo />} />
                     </Routes>
                 </Layout>
             </div>
