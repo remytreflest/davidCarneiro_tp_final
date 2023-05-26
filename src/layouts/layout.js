@@ -1,11 +1,11 @@
-import Navigation from "../components/Navigation"
+import Navigation from '../components/Navigation'
 
 const Layout = ({ children }) => {
     return (
         <>
             <Navigation />
 
-            <main className="row">{children}</main>
+            <main className='row'>{children}</main>
 
             <footer></footer>
         </>

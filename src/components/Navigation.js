@@ -31,6 +31,10 @@ function Navigation() {
                     <NavLink className='nav-item nav-link' to='/quizz'>
                         Quizz
                     </NavLink>
+
+                    <NavLink className='nav-item nav-link' to='/rockets'>
+                        Fusées
+                    </NavLink>
                 </div>
             </div>
         </nav>
