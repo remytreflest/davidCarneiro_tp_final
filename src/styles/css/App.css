@@ -18,23 +18,29 @@
     }
 }
 
-.div-historique {
-    width: 75%;
-    margin: auto;
-}
-.div-info-historique {
-    width: 75%;
-}
 
 .link-history ul {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 25px 0px;
+
     margin-bottom: 10px;
 }
 .link-history :hover {
     border-radius: 5px;
     background-color: rgba(227, 227, 227, 0.418);
+    color :white
 }
 
+.titre-historique{
+    color:white
+}
+.titre-entreprise{
+    color:white
+}
+.titre-infoSupp{
+    color: white;
+}
+.titre-fusée{
+    color:white
+}
 .card-crew-light-card {
     background: transparent;
     border: 1px solid white;
@@ -111,7 +117,7 @@
     width: 50%;
 }
 .img-card{
-    height: 70%;
+    height: 400px;
     border-color: rgb(0, 0, 0);
 }
 
@@ -129,12 +135,24 @@
 }
 .img-link{
     margin-right:2%;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
+    height: 150px;
 }
 .img-link :hover{
     background-color: #cdcdcd;
     transition: background-color 1s ease 0s;
 }
-/* .image-card{
-    width: 20%;
-} */
+
+.div-entreprise-spacex{
+    background: transparent;
+    color:white;
+    border-color: #FFFFFF;
+}
+.titre-rocket-details{
+    color: white;
+}
+.test a{
+    background-color: white;
+    width: 50px;
+    border-radius: 10px;
+}

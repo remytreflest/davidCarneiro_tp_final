@@ -29,7 +29,7 @@ export default function History() {
     }
     return (
         <div>
-            <h2 className='mt-4 mb-4'>Historique de {"l'entreprise"}</h2>
+            <h2 className='text-center mt-4 mb-4 titre-historique'>Historique de {"l'entreprise"}</h2>
             {data}
         </div>
     )
