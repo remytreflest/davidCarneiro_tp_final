@@ -72,7 +72,7 @@ export default function EntreprisePage() {
     return (
             <div>
                 <div>
-                    <h2 className="mb-4 mt-4">Informations supplémentaire</h2>
+                    <h2 className="mb-4 mt-4 text-center titre-entreprise">Informations supplémentaire</h2>
                     {data}
                 </div>
             </div>
