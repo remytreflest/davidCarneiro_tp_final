@@ -5,6 +5,8 @@ import History from '../pages/history'
 import HistoryInfo from '../pages/historyInfo'
 import Layout from '../layouts/layout'
 import CrewDetailsCard from '../components/CrewDetailsCard'
+import EntreprisePage from '../pages/entreprise'
+import QuizzPage from '../pages/quizz'
 
 const Routeur = ({ text }) => {
     return (
@@ -18,6 +20,8 @@ const Routeur = ({ text }) => {
                         <Route path='/404' element={<Error text='404' />} />
                         <Route path='/history/' element={<History/>} />
                         <Route path='/history/:id' element={<HistoryInfo/>} />
+                        <Route path='/company/' element={<EntreprisePage/>} />
+                        <Route path='/quizz/' element={<QuizzPage/>} />
                     </Routes>
                 </Layout>
             </div>

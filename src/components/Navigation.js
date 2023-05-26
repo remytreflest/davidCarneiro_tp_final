@@ -25,6 +25,12 @@ function Navigation() {
                     <NavLink className='nav-item nav-link' to='/history'>
                         Historique
                     </NavLink>
+                    <NavLink className='nav-item nav-link' to='/company'>
+                        Informations
+                    </NavLink>
+                    <NavLink className='nav-item nav-link' to='/quizz'>
+                        Quizz
+                    </NavLink>
                 </div>
             </div>
         </nav>

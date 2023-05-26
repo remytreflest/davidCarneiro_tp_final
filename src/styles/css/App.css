@@ -106,3 +106,38 @@ main {
     align-items: center;
     flex-direction: row;
 }
+.bloc-div-entreprise{
+    display: flex;
+    flex-direction: row;
+}
+.card-personne{
+    width: 50%;
+}
+.img-card{
+    height: 70%;
+    border-color: rgb(0, 0, 0);
+}
+
+.img-spacex{
+    height: 70%;
+    border: solid 1px rgb(237, 236, 236)
+}
+.div-spacex{
+    text-align: left;
+}
+.logo-link{
+    width: 50px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+}
+.img-link{
+    margin-right:2%;
+    background-color: #FFFFFF;
+}
+.img-link :hover{
+    background-color: #cdcdcd;
+    transition: background-color 1s ease 0s;
+}
+/* .image-card{
+    width: 20%;
+} */
