@@ -8,7 +8,8 @@ import Layout from '../layouts/layout'
 import CrewDetailsCard from '../components/crews/CrewDetailsCard'
 import RocketDetailsCard from '../components/rockets/RocketDetailsCard'
 import EntreprisePage from '../pages/entreprise'
-import QuizzPage from '../pages/quizz'
+import QuizzPage from '../pages/QuizzPage'
+import QuizzList from '../pages/QuizzList'
 
 const Routeur = ({ text }) => {
     return (
@@ -21,10 +22,11 @@ const Routeur = ({ text }) => {
                         <Route path='/rockets' element={<Rockets />} />
                         <Route path='/rockets/:id' element={<RocketDetailsCard />} />
                         <Route path='/404' element={<Error text='404' />} />
-                        <Route path='/history/' element={<History/>} />
-                        <Route path='/history/:id' element={<HistoryInfo/>} />
-                        <Route path='/company/' element={<EntreprisePage/>} />
-                        <Route path='/quizz/' element={<QuizzPage/>} />
+                        <Route path='/history/' element={<History />} />
+                        <Route path='/history/:id' element={<HistoryInfo />} />
+                        <Route path='/company/' element={<EntreprisePage />} />
+                        <Route path='/quizz/' element={<QuizzList />} />
+                        <Route path='/quizz/:id' element={<QuizzPage />} />
                         <Route path='*' element={<Error text='404' />} />
                     </Routes>
                 </Layout>

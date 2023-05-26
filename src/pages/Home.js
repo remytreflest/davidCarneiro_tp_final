@@ -2,13 +2,10 @@ import React, { useState, useEffect } from 'react'
 import file from '../assets/data/data.json'
 import axios from 'axios'
 import CrewLightCard from '../components/crews/CrewLightCard'
+import { setBackground } from '../utils/functions'
 
 function Home() {
-    document.body.style.backgroundImage = 'url(' + '../../assets/img/background-space-x.jpg' + ')'
-    document.body.style.backgroundSize = 'cover'
-    document.body.style.backgroundAttachment = 'fixed'
-    document.body.style.backgroundPosition = '50% 50%'
-    document.body.style.backgroundRepeat = 'no-repeat'
+    setBackground("background-space-x.jpg")
 
     const [originalData, setOriginalData] = useState([])
     const [filteredData, setFilteredData] = useState([])

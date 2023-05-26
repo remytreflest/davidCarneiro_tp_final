@@ -103,38 +103,79 @@
 .fade-in {
     animation: fadeIn 2s;
 }
-.bloc-div-entreprise{
+.bloc-div-entreprise {
     display: flex;
     flex-direction: row;
 }
-.card-personne{
+.card-personne {
     width: 50%;
 }
-.img-card{
+.img-card {
     height: 70%;
     border-color: rgb(0, 0, 0);
 }
 
-.img-spacex{
+.img-spacex {
     height: 70%;
-    border: solid 1px rgb(237, 236, 236)
+    border: solid 1px rgb(237, 236, 236);
 }
-.div-spacex{
+.div-spacex {
     text-align: left;
 }
-.logo-link{
+.logo-link {
     width: 50px;
     border: 1px solid rgb(206, 206, 206);
     border-radius: 10px;
 }
-.img-link{
-    margin-right:2%;
-    background-color: #FFFFFF;
+.img-link {
+    margin-right: 2%;
+    background-color: #ffffff;
 }
-.img-link :hover{
+.img-link :hover {
     background-color: #cdcdcd;
     transition: background-color 1s ease 0s;
 }
-/* .image-card{
-    width: 20%;
-} */
+
+.timer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.7;
+    z-index: 10;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+}
+.timer svg {
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.quizz-card {
+    background: #ffffffe0;
+}
+
+.quizz-card .card-header {
+    display: flex;
+    align-items: center;
+}
+
+.quizz-card .card-header h3 {
+    margin-left: 20px;
+}
+
+.quizz-list-card {
+    background: #00000066;
+    border: 1px solid white;
+}
+.quizz-list-card:hover {
+    box-shadow: 0px 0px 10px 4px white;
+}
+.quizz-list-card .card-body {
+    text-decoration: none;
+    color: white;
+}
