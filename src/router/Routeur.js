@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Home from '../pages/Home'
-import Rockets from '../pages/Rockets'
+import HomePage from '../pages/HomePage'
+import RocketsPage from '../pages/RocketsPage'
 import Error from './Error'
-import History from '../pages/history'
-import HistoryInfo from '../pages/historyInfo'
 import Layout from '../layouts/layout'
-import CrewDetailsCard from '../components/crews/CrewDetailsCard'
-import RocketDetailsCard from '../components/rockets/RocketDetailsCard'
+import CrewDetailsPage from '../pages/CrewDetailsPage'
+import RocketDetailsPage from '../pages/RocketDetailsPage'
 import EntreprisePage from '../pages/entreprise'
 import QuizzPage from '../pages/QuizzPage'
-import QuizzList from '../pages/QuizzList'
+import QuizzListPage from '../pages/QuizzListPage'
+import HistoryPage from '../pages/HistoryPage'
+import HistoryInfoPage from '../pages/HistoryInfoPage'
 
 const Routeur = ({ text }) => {
     return (
@@ -17,15 +17,15 @@ const Routeur = ({ text }) => {
             <div className='App'>
                 <Layout>
                     <Routes>
-                        <Route exact path='/' element={<Home />} />
-                        <Route path='/crew/:id' element={<CrewDetailsCard />} />
-                        <Route path='/rockets' element={<Rockets />} />
-                        <Route path='/rockets/:id' element={<RocketDetailsCard />} />
+                        <Route exact path='/' element={<HomePage />} />
+                        <Route path='/crew/:id' element={<CrewDetailsPage />} />
+                        <Route path='/rockets' element={<RocketsPage />} />
+                        <Route path='/rockets/:id' element={<RocketDetailsPage />} />
                         <Route path='/404' element={<Error text='404' />} />
-                        <Route path='/history/' element={<History />} />
-                        <Route path='/history/:id' element={<HistoryInfo />} />
+                        <Route path='/history/' element={<HistoryPage />} />
+                        <Route path='/history/:id' element={<HistoryInfoPage />} />
                         <Route path='/company/' element={<EntreprisePage />} />
-                        <Route path='/quizz/' element={<QuizzList />} />
+                        <Route path='/quizz/' element={<QuizzListPage />} />
                         <Route path='/quizz/:id' element={<QuizzPage />} />
                         <Route path='*' element={<Error text='404' />} />
                     </Routes>

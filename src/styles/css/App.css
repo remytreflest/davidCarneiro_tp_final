@@ -207,14 +207,14 @@ body {
     color: white;
     border-color: white;
 }
-.ul-info-fusee{
+.ul-info-fusee {
     border-color: white;
-    border-top:  1px white ;
+    border-top: 1px solid white;
 }
-.ul-info-fusee ul li{
+.ul-info-fusee ul li {
     background: transparent;
     border-color: white;
-    color:white
+    color: white;
 }
 
 .li-history-list {
@@ -270,15 +270,12 @@ body {
 .link-article:hover {
     box-shadow: 0px 0px 10px 4px white;
 }
-.test-2 {
-    color: transparent;
- }
 
- .card-rocket-detail{
+.card-rocket-detail {
     background: transparent;
     border-color: white;
- }
+}
 
- .titre-graphique{
+.titre-graphique {
     color: white;
- }
+}

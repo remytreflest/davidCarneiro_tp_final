@@ -4,7 +4,7 @@ import History_URL from '../assets/data/data.json'
 import HistoryList from '../components/histories/historyList'
 import { setBackground } from '../utils/functions'
 
-export default function History() {
+export default function HistoryPage() {
     setBackground('background-7-space-x.jpg', '0% 0%')
     const [data, setData] = useState([])
 

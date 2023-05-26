@@ -2,7 +2,7 @@ import { Link, redirect, useParams } from 'react-router-dom'
 import file from '../assets/data/quizz.json'
 import { setBackground } from '../utils/functions'
 
-export default function QuizzList() {
+export default function QuizzListPage() {
     setBackground('background-6-space-x.jpg')
 
     const quizzList = file.map((item) => {

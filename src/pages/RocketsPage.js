@@ -4,7 +4,7 @@ import axios from 'axios'
 import RocketLightCard from '../components/rockets/RocketLightCard'
 import { setBackground } from '../utils/functions'
 
-function Rockets() {
+function RocketsPage() {
     setBackground('background-6-space-x.jpg')
     const [data, setData] = useState([])
     const [isLoading, setIsLoading] = useState(true)
@@ -40,4 +40,4 @@ function Rockets() {
     )
 }
 
-export default Rockets
+export default RocketsPage

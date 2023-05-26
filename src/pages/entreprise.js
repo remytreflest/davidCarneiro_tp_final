@@ -4,12 +4,12 @@ import { Link, useParams } from 'react-router-dom'
 import Company_URL from '../assets/data/data.json'
 import { setBackground } from '../utils/functions'
 import ComponentCompany from '../components/entreprise/entrepriseDesc'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons'
 
 export default function EntreprisePage() {
     setBackground('background-3-space-x.jpg')
     const { id } = useParams()
-    // console.log(id);
-
     const [data, setData] = useState([])
 
     useEffect(() => {
@@ -64,7 +64,10 @@ export default function EntreprisePage() {
         <div>
             <div>
                 <div>
-                    <h2 className='mb-4 mt-4 text-center titre-entreprise'>
+                    <h2 className='mb-4 mt-4 text-center titre-entreprise d-flex'>
+                        <Link className='btn btn-dark me-2' to={`../../`}>
+                            <FontAwesomeIcon icon={faArrowLeftLong} style={{ color: '#ffffff' }} />
+                        </Link>
                         Informations supplémentaire
                     </h2>
                     {data}
